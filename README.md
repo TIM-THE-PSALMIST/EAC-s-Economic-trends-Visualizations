@@ -28,9 +28,27 @@ We filtered the dataset to retain only relevant `Item` and `Element` combination
 - Value Added (Manufacture of food and beverages)
 - Value Added (Total Manufacturing)
 
- Python Code Used
+
+ Power BI Visualization
+Once cleaned, the data was used in Power BI to create visuals that analyze:
+
+GDP and GNI growth trends
+
+Manufacturing sector contributions
+
+Per capita comparisons across countries
+
+Long-term economic development patterns
+
+Each visual helps tell a different story about regional and global economic growth with Rwanda as a focal point.
+
+📌 Project Goal
+To provide a clear, visual representation of key economic indicators to support a research presentation on Rwanda's economic evolution in comparison to other countries.
+
+Python Code Used
 
 ```python
+
 import pandas as pd
 df = pd.read_csv("FAOSTAT_data_en_8-3-2025.csv")
 
